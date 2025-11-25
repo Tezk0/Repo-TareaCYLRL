@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Recuperación y Aceleración de los Aprendizajes — One Page</title>
+  <meta name="description" content="Landing page sobre la recuperación y aceleración de los aprendizajes en América Latina y el Caribe." />
+  <style>
+    :root{
+      --bg:#ffffff; --accent:#0b67b2; --accent-2:#2ea46d; --muted:#6b7280; --card:#f8fafc; --radius:12px;
+      --max-width:1100px;
+    }
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; color:#111}
+    .container{max-width:var(--max-width); margin:0 auto; padding:24px}
+    header{background:linear-gradient(180deg,var(--accent),#1069aa); color:#fff}
+    .nav{display:flex; align-items:center; justify-content:space-between; gap:12px}
+    .brand{font-weight:700; font-size:1.1rem}
+    nav a{color:rgba(255,255,255,0.95); text-decoration:none; margin-left:14px}
+    .hero{padding:64px 0; text-align:center}
+    .hero h1{font-size:clamp(1.6rem,3.6vw,2.4rem); margin:0 0 12px}
+    .hero p{color:rgba(255,255,255,0.95); margin:0 0 20px}
+    .btn{display:inline-block; padding:12px 20px; border-radius:999px; background:var(--accent-2); color:#fff; text-decoration:none; font-weight:600}
+
+    section{padding:56px 0}
+    h2{font-size:1.35rem; margin:0 0 10px}
+    .lead{color:var(--muted); margin:0 0 18px}
+
+    /* Cards row */
+    .grid{display:grid; gap:18px}
+    .grid.cols-3{grid-template-columns:repeat(3,1fr)}
+    .card{background:var(--card); padding:18px; border-radius:var(--radius); box-shadow:0 6px 18px rgba(12,20,32,0.04)}
+    .icon{width:44px; height:44px; display:inline-flex; align-items:center; justify-content:center; border-radius:10px; background:#fff; margin-bottom:12px}
+    .card h3{margin:6px 0 8px; font-size:1rem}
+    .small{font-size:0.95rem; color:var(--muted)}
+
+    /* Ejes */
+    .ejes{display:grid; grid-template-columns:repeat(auto-fit, minmax(200px,1fr)); gap:16px}
+    .eje{background:#fff; border:1px solid #eef2f6; padding:16px; border-radius:10px}
+
+    /* ODS & CTA */
+    .cta{background:linear-gradient(90deg,#eef9f3, #f5fbff); padding:28px; border-radius:12px; display:flex; gap:18px; align-items:center; justify-content:space-between}
+    .cta .cta-left{max-width:65%}
+
+    footer{padding:28px 0; border-top:1px solid #eef2f6}
+
+    /* Responsive */
+    @media (max-width:720px){
+      .grid.cols-3{grid-template-columns:1fr}
+      .hero{padding:42px 12px}
+      .cta{flex-direction:column; align-items:flex-start}
+    }
+
+    /* Utility */
+    .muted{color:var(--muted)}
+    .center{text-align:center}
+    .mt-8{margin-top:32px}
+    .mb-2{margin-bottom:8px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">Recuperación Aprendizajes — ALyC</div>
+      <nav>
+        <a href="#contexto">Contexto</a>
+        <a href="#ejes">Ejes</a>
+        <a href="#transformacion">Transformación</a>
+        <a href="#conclusion">Conclusión</a>
+      </nav>
+    </div>
+
+    <div class="container hero">
+      <h1>Recuperación y Aceleración de los Aprendizajes en América Latina y el Caribe</h1>
+      <p>Un desafío urgente para avanzar hacia una educación más justa, inclusiva y sostenible.</p>
+      <a class="btn" href="#ejes">Explorar los ejes de acción</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Contexto -->
+    <section id="contexto">
+      <h2>¿Por qué es un desafío urgente?</h2>
+      <p class="lead">A pesar de múltiples esfuerzos desde políticas públicas, la región presenta importantes brechas en recuperación de aprendizajes. Estos rezagos afectan el cumplimiento del ODS4 y el desarrollo de millones de estudiantes.</p>
+
+      <div class="grid cols-3">
+        <div class="card center">
+          <div class="icon">📚</div>
+          <h3>Rezago en lectura y matemáticas</h3>
+          <p class="small">Pérdidas de aprendizaje que requieren intervenciones focalizadas.</p>
+        </div>
+
+        <div class="card center">
+          <div class="icon">🌍</div>
+          <h3>Brechas socioeconómicas y territoriales</h3>
+          <p class="small">Desigualdades que impiden acceso y continuidad educativa.</p>
+        </div>
+
+        <div class="card center">
+          <div class="icon">👩‍🏫</div>
+          <h3>Insuficiente apoyo docente y recursos</h3>
+          <p class="small">Necesidad de inversión en formación y condiciones para la docencia.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ejes UNESCO -->
+    <section id="ejes">
+      <h2>Ejes para recuperar y acelerar los aprendizajes</h2>
+      <p class="lead">UNESCO identifica cuatro ejes estratégicos para enfrentar este desafío de manera integral.</p>
+
+      <div class="ejes mt-8">
+        <div class="eje">
+          <div class="mb-2 icon">👥</div>
+          <h3>Inclusión educativa</h3>
+          <p class="small">Garantizar acceso, permanencia y participación sin discriminación, con programas focalizados para grupos vulnerables.</p>
+        </div>
+
+        <div class="eje">
+          <div class="mb-2 icon">📈</div>
+          <h3>Mejora de los aprendizajes</h3>
+          <p class="small">Implementar metodologías relevantes, evaluación formativa y refuerzo de competencias fundamentales.</p>
+        </div>
+
+        <div class="eje">
+          <div class="mb-2 icon">🧑‍🏫</div>
+          <h3>Fortalecimiento de la docencia</h3>
+          <p class="small">Capacitación continua, acompañamiento y mejores condiciones laborales para docentes.</p>
+        </div>
+
+        <div class="eje">
+          <div class="mb-2 icon">💰</div>
+          <h3>Gobernanza y financiamiento</h3>
+          <p class="small">Incremento de presupuestos, mejor coordinación y gobernanza sistémica para priorizar la recuperación.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Transformación -->
+    <section id="transformacion">
+      <h2>Más allá de la recuperación: la transformación del sistema educativo</h2>
+      <p class="lead">Recuperar aprendizajes debe ser parte de una transformación mayor: construir sistemas educativos humanistas, científicos, sostenibles y creativos para enfrentar los retos del futuro.</p>
+
+      <div class="grid cols-3 mt-8">
+        <div class="card center">
+          <div class="icon">❤️</div>
+          <h3>Enfoque humanista</h3>
+          <p class="small">Educación centrada en la dignidad, derechos y el desarrollo integral del estudiante.</p>
+        </div>
+        <div class="card center">
+          <div class="icon">🔬</div>
+          <h3>Enfoque científico</h3>
+          <p class="small">Fomento de pensamiento crítico, investigación y competencias STEM.</p>
+        </div>
+        <div class="card center">
+          <div class="icon">🌱</div>
+          <h3>Sostenibilidad y creatividad</h3>
+          <p class="small">Incorporar prácticas sostenibles y promover metodologías creativas y artísticas.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ODS & CTA -->
+    <section id="conclusion">
+      </div>
+
+      <div class="mt-8">
+        <h2>Conclusión</h2>
+        <p class="lead">La región enfrenta una deuda en recuperación educativa que requiere inversión, gobernanza reforzada y estrategias pedagógicas profundas. Sólo con una visión integral y sostenida se podrá garantizar un futuro más justo e inclusivo para las próximas generaciones.</p>
+      </div>
+    </section>
+
+    <footer class="center">
+      <p class="muted">© 2025 — Recuperación de Aprendizajes — América Latina y el Caribe. Diseño: ejemplo educativo.</p>
+    </footer>
+  </main>
+
+  <script>
+    // Smooth scroll for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', e=>{
+        const href = a.getAttribute('href');
+        if(href.length>1){
+          e.preventDefault();
+          document.querySelector(href).scrollIntoView({behavior:'smooth', block:'start'});
+        }
+      })
+    })
+  </script>
+</body>
+</html>
