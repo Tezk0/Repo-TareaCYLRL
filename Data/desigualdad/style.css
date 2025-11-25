@@ -1,0 +1,22 @@
+body {
+    background-color: pink;
+}
+header {
+    border-bottom: 4px rgb(175, 0, 102) solid;
+}
+.Introduccion {
+    border-bottom: 4px rgb(175, 0, 102) solid;
+}
+.conclusion {
+    border-bottom: 4px rgb(175, 0, 102) solid;
+}
+.bibliografia {
+    display: flex;
+    flex-direction: column;
+}
+.en {
+    color: rgb(59, 0, 23);
+}
+p {
+    color: rgb(94, 0, 36);
+}
